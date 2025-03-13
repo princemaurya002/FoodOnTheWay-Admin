@@ -30,7 +30,7 @@
     <EditText
         android:id="@+id/nameOfRestaurant"
         android:layout_width="360dp"
-        android:layout_height="60dp"
+        android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/edittext"
         android:drawableLeft="@drawable/email_logo"
@@ -46,7 +46,7 @@
     <EditText
         android:id="@+id/email"
         android:layout_width="360dp"
-        android:layout_height="60dp"
+        android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/edittext"
         android:drawableLeft="@drawable/lock_logo"
@@ -63,8 +63,8 @@
     <EditText
         android:id="@+id/userName"
         android:layout_width="360dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="45dp"
         android:background="@drawable/edittext"
         android:drawableLeft="@drawable/user_01"
         android:drawablePadding="15dp"
@@ -110,7 +110,7 @@
         android:id="@+id/button"
         android:layout_width="150dp"
         android:layout_height="55dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/green_button_next"
         android:fontFamily="@font/shantellsans_medium"
         android:text="Create User"

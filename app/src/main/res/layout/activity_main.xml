@@ -12,7 +12,7 @@
         android:id="@+id/addMenu"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="55dp"
         android:outlineSpotShadowColor="@color/green"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toStartOf="@+id/allItemMenu"
@@ -100,7 +100,7 @@
         android:id="@+id/orderDispatch"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:outlineSpotShadowColor="@color/green"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toStartOf="@+id/logout"
@@ -157,7 +157,7 @@
         android:fontFamily="@font/shantellsans_medium"
         android:text="Waves of Food"
         android:textColor="@color/black"
-        android:textSize="34sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.338"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
@@ -180,6 +180,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:padding="10dp"
             android:background="#f4f4f4">
 
             <androidx.constraintlayout.widget.Guideline
@@ -367,7 +368,7 @@
         android:id="@+id/profile"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:outlineSpotShadowColor="@color/green"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toStartOf="@+id/createUser"
